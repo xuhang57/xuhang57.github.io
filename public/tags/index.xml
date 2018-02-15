@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lucas Xu - Life is too short to be little</title>
+    <link>https://lucashangxu.pw/tags/</link>
+    <description>Recent content in Tags on Lucas Xu - Life is too short to be little</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Lucas Xu</copyright>
+    <lastBuildDate>Tue, 13 Feb 2018 21:53:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://lucashangxu.pw/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://lucashangxu.pw/tags/blog/</link>
+      <pubDate>Tue, 13 Feb 2018 21:53:12 -0500</pubDate>
+      
+      <guid>https://lucashangxu.pw/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://lucashangxu.pw/tags/english/</link>
+      <pubDate>Tue, 13 Feb 2018 21:53:12 -0500</pubDate>
+      
+      <guid>https://lucashangxu.pw/tags/english/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

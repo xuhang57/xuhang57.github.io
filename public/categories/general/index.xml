@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Lucas Xu - Life is too short to be little</title>
+    <link>https://lucashangxu.pw/categories/general/</link>
+    <description>Recent content in General on Lucas Xu - Life is too short to be little</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Lucas Xu</copyright>
+    <lastBuildDate>Tue, 13 Feb 2018 21:53:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://lucashangxu.pw/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Writing a Blog</title>
+      <link>https://lucashangxu.pw/post/why-writing-a-blog/</link>
+      <pubDate>Tue, 13 Feb 2018 21:53:12 -0500</pubDate>
+      
+      <guid>https://lucashangxu.pw/post/why-writing-a-blog/</guid>
+      <description>I read posts on different blogs regularly. For example,
+ Coding Horror Home of Feross Aboukhadijeh » Feross.org Joel on Software  Building a great blog is a long-time commitment and it is not an easy one. It is difficult that you do not always know what you would want to write about. In addition, writing in English, which is not my native language, makes the posts not so clear and concise.</description>
+    </item>
+    
+  </channel>
+</rss>
