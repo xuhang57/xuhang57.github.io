@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>English on Lucas Xu - code, write, think, change</title>
-    <link>https://lucashangxu.pw/tags/english/</link>
-    <description>Recent content in English on Lucas Xu - code, write, think, change</description>
+    <title>Resources on Lucas Xu - code, write, think, change</title>
+    <link>https://lucashangxu.pw/categories/resources/</link>
+    <description>Recent content in Resources on Lucas Xu - code, write, think, change</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Lucas Xu</copyright>
     <lastBuildDate>Sun, 18 Feb 2018 01:04:56 -0500</lastBuildDate>
     
-	<atom:link href="https://lucashangxu.pw/tags/english/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lucashangxu.pw/categories/resources/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <guid>https://lucashangxu.pw/post/a-list-of-blogs/</guid>
       <description>Here is a list of my favorite blogs written in English. I will keep updating the list.
 Computer Science/Software/Programming in general  Coding Horror Home of Feross Aboukhadijeh » Feross.org Joel on Software Junior Dev Diaries — Sam Jarman Teach Yourself Computer Science Peter Norvig  Self-Learning  GitHub - jwasham/coding-interview-university: A complete computer science study plan to become a software engineer. Teach Yourself Computer Science Learning Programming GitHub - ossu/computer-science: Path to a free self-taught education in Computer Science!</description>
-    </item>
-    
-    <item>
-      <title>Why Writing a Blog</title>
-      <link>https://lucashangxu.pw/post/why-writing-a-blog/</link>
-      <pubDate>Tue, 13 Feb 2018 21:53:12 -0500</pubDate>
-      
-      <guid>https://lucashangxu.pw/post/why-writing-a-blog/</guid>
-      <description>I read posts on different blogs regularly. For example,
- Coding Horror Home of Feross Aboukhadijeh » Feross.org Joel on Software  Building a great blog is a long-time commitment and it is not an easy one. It is difficult that you do not always know what you would want to write about. In addition, writing in English, which is not my native language, makes the posts not so clear and concise.</description>
     </item>
     
   </channel>

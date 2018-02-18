@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lucashangxu.pw/post/a-list-of-blogs/</loc>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/post/why-writing-a-blog-cn/</loc>
     <lastmod>2018-02-15T22:49:30-05:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -24,6 +31,13 @@
   </url>
   
   <url>
+    <loc>https://lucashangxu.pw/tags/blogs/</loc>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -37,8 +51,15 @@
   </url>
   
   <url>
+    <loc>https://lucashangxu.pw/tags/computer-science/</loc>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/tags/english/</loc>
-    <lastmod>2018-02-13T21:53:12-05:00</lastmod>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -52,14 +73,21 @@
   
   <url>
     <loc>https://lucashangxu.pw/</loc>
-    <lastmod>2018-02-15T22:49:30-05:00</lastmod>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/post/</loc>
-    <lastmod>2018-02-15T22:49:30-05:00</lastmod>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/categories/resources/</loc>
+    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
