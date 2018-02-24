@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>推荐的博客 - Lucas Xu - code, write, think, change</title>
+  <title>Code Coverage in Python - Lucas Xu - code, write, think, change</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,9 @@
 
 
 <meta name="author" content="Lucas Xu" />
-  <meta name="description" content="这里推荐的博客都是中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：A List of Blogs - Lucas Xu - code, write, think, change 阮一峰的网络日志 廖雪峰的官方网站 Just For Fun | 知其" />
+  <meta name="description" content="What is Code Coverage? In short, Code Coverage testing is determining how much code is tested.
+ Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &amp;mdash; Wikipedia Code coverage - Wikipedia
+ Why Test Code Coverage? Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written." />
 
   <meta name="keywords" content="Lucas, blog, thoughts, programming" />
 
@@ -29,7 +31,7 @@
 <meta name="generator" content="Hugo 0.36" />
 
 
-<link rel="canonical" href="https://lucashangxu.pw/post/a-list-of-blogs-cn/" />
+<link rel="canonical" href="https://lucashangxu.pw/post/code-coverage-in-python/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,20 +51,18 @@
 
 
 
-<meta property="og:title" content="推荐的博客" />
-<meta property="og:description" content="这里推荐的博客都是中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：A List of Blogs - Lucas Xu - code, write, think, change 阮一峰的网络日志 廖雪峰的官方网站 Just For Fun | 知其" />
+<meta property="og:title" content="Code Coverage in Python" />
+<meta property="og:description" content="What is Code Coverage? In short, Code Coverage testing is determining how much code is tested.
+ Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &mdash; Wikipedia Code coverage - Wikipedia
+ Why Test Code Coverage? Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lucashangxu.pw/post/a-list-of-blogs-cn/" />
+<meta property="og:url" content="https://lucashangxu.pw/post/code-coverage-in-python/" />
 
 
 
-<meta property="article:published_time" content="2018-02-19T11:27:07-05:00"/>
+<meta property="article:published_time" content="2018-02-23T21:22:12-05:00"/>
 
-<meta property="article:modified_time" content="2018-02-19T11:27:07-05:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-02-23T21:22:12-05:00"/>
 
 
 
@@ -70,20 +70,28 @@
 
 
 
-<meta itemprop="name" content="推荐的博客">
-<meta itemprop="description" content="这里推荐的博客都是中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：A List of Blogs - Lucas Xu - code, write, think, change 阮一峰的网络日志 廖雪峰的官方网站 Just For Fun | 知其">
-
-
-<meta itemprop="datePublished" content="2018-02-19T11:27:07-05:00" />
-<meta itemprop="dateModified" content="2018-02-19T11:27:07-05:00" />
-<meta itemprop="wordCount" content="108">
 
 
 
-<meta itemprop="keywords" content="Chinese,blogs,computer science," />
+
+<meta itemprop="name" content="Code Coverage in Python">
+<meta itemprop="description" content="What is Code Coverage? In short, Code Coverage testing is determining how much code is tested.
+ Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &mdash; Wikipedia Code coverage - Wikipedia
+ Why Test Code Coverage? Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written.">
+
+
+<meta itemprop="datePublished" content="2018-02-23T21:22:12-05:00" />
+<meta itemprop="dateModified" content="2018-02-23T21:22:12-05:00" />
+<meta itemprop="wordCount" content="242">
+
+
+
+<meta itemprop="keywords" content="English,code coverage,python," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="推荐的博客"/>
-<meta name="twitter:description" content="这里推荐的博客都是中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：A List of Blogs - Lucas Xu - code, write, think, change 阮一峰的网络日志 廖雪峰的官方网站 Just For Fun | 知其"/>
+<meta name="twitter:title" content="Code Coverage in Python"/>
+<meta name="twitter:description" content="What is Code Coverage? In short, Code Coverage testing is determining how much code is tested.
+ Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &mdash; Wikipedia Code coverage - Wikipedia
+ Why Test Code Coverage? Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -146,38 +154,71 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">推荐的博客</h1>
+      <h1 class="post-title">Code Coverage in Python</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-02-19 </span>
+        <span class="post-time"> 2018-02-23 </span>
         <div class="post-category">
             
-              <a href="/categories/resources/"> resources </a>
+              <a href="/categories/programming/"> programming </a>
             
           </div>
-        <span class="more-meta"> 108 words </span>
-        <span class="more-meta"> 1 min read </span>
+        <span class="more-meta"> 242 words </span>
+        <span class="more-meta"> 2 mins read </span>
         
       </div>
     </header>
 
     
     
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#what-is-code-coverage">What is Code Coverage?</a></li>
+<li><a href="#why-test-code-coverage">Why Test Code Coverage?</a></li>
+<li><a href="#code-coverage-in-python">Code Coverage in Python</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
 
     
     <div class="post-content">
       
 
-<h2 id="这里推荐的博客都是中文博客-如果你对英文博客感兴趣-请看我另外一片文章-a-list-of-blogs-lucas-xu-code-write-think-change-http-lucashangxu-pw-post-a-list-of-blogs">这里推荐的博客都是中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：<a href="http://lucashangxu.pw/post/a-list-of-blogs/">A List of Blogs - Lucas Xu - code, write, think, change</a></h2>
+<h3 id="what-is-code-coverage">What is Code Coverage?</h3>
 
-<ul>
-<li><a href="http://www.ruanyifeng.com/blog/">阮一峰的网络日志</a></li>
-<li><a href="https://www.liaoxuefeng.com/">廖雪峰的官方网站</a></li>
-<li><a href="http://selfboot.cn/">Just For Fun | 知其然，知其所以然。知识广度是深度的副产品！</a></li>
-<li><a href="http://blog.yufeng.info/">系统技术非业余研究</a></li>
-<li><a href="http://justjavac.com/">justjavac(迷渡) - justjavac(迷渡)</a></li>
-<li><a href="https://yuguo.us/weblog/">余果</a></li>
-</ul>
+<p>In short, Code Coverage testing is determining how much code is tested.</p>
+
+<blockquote>
+<p>Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &mdash; Wikipedia
+<a href="https://en.wikipedia.org/wiki/Code_coverage">Code coverage - Wikipedia</a></p>
+</blockquote>
+
+<h3 id="why-test-code-coverage">Why Test Code Coverage?</h3>
+
+<p>Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written. Furthermore, it helps you maintain the test quality over the lifecycle of your project.</p>
+
+<h3 id="code-coverage-in-python">Code Coverage in Python</h3>
+
+<p>A popular tool for testing the code coverage in Python is <code>Coverage.py</code>. It works for both <code>Python2</code> and <code>Python3</code>.
+More details: <a href="https://coverage.readthedocs.io/en/coverage-4.5.1/">Coverage.py — Coverage.py 4.5.1 documentation</a></p>
+
+<p>Moreover, some test runners provide coverage integration to make it easy to use <code>coverage.py</code> while running tests. A good example is <code>pytest-cov</code>.
+More details: <a href="https://pytest-cov.readthedocs.io/en/latest/">Welcome to pytest-cov’s documentation! — pytest-cov 2.5.1 documentation</a></p>
+
+<p>Based on the <code>pytest-cov</code> official documentation, the benefits of using the plugin rather than just <code>coverage run</code> via using <code>Coverage.py</code> directly, is first, it supports <code>subprocess</code> well, second, it supports <code>Xdist</code>. Most importantly, if you are using <code>pytest</code> in your project to perform all the unit testings, it provides a consistent <code>pytest</code> behavior.</p>
+
+<p>If you have multiple tests running by <code>pytest</code>, if you use <code>--cov-append</code> to append this coverage data to coverage data from previous test runs.</p>
 
     </div>
 
@@ -189,7 +230,7 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-02-19</span>
+    <span class="item-content">2018-02-23</span>
   </p>
   
   <p class="copyright-item">
@@ -204,25 +245,20 @@
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/tags/chinese/">Chinese</a>
+          <a href="/tags/english/">English</a>
           
-          <a href="/tags/blogs/">blogs</a>
+          <a href="/tags/code-coverage/">code coverage</a>
           
-          <a href="/tags/computer-science/">computer science</a>
+          <a href="/tags/python/">python</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/code-coverage-in-python/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Code Coverage in Python</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/post/a-list-of-blogs/">
-            <span class="next-text nav-default">A List of Blogs</span>
+          <a class="next" href="/post/a-list-of-blogs-cn/">
+            <span class="next-text nav-default">推荐的博客</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
