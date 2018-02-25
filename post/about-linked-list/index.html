@@ -76,7 +76,7 @@
 
 <meta itemprop="datePublished" content="2018-02-24T22:03:42-05:00" />
 <meta itemprop="dateModified" content="2018-02-24T22:03:42-05:00" />
-<meta itemprop="wordCount" content="1088">
+<meta itemprop="wordCount" content="1086">
 
 
 
@@ -155,7 +155,7 @@
               <a href="/categories/data-structure/"> data structure </a>
             
           </div>
-        <span class="more-meta"> 1088 words </span>
+        <span class="more-meta"> 1086 words </span>
         <span class="more-meta"> 3 mins read </span>
         
       </div>
@@ -171,17 +171,16 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
 <li><a href="#什么是链表-what-is-a-linked-list">什么是链表 (What is a Linked List?)</a></li>
 <li><a href="#为什么使用链表-why-use-a-linked-list">为什么使用链表 (Why use a Linked List?)</a></li>
 <li><a href="#链表特点-features">链表特点 (Features)</a></li>
 <li><a href="#linked-list-in-java-singly">Linked List in Java (Singly)</a></li>
-<li><a href="#linked-list-in-python-singly">Linked List in Python (Singly)</a></li>
+<li><a href="#linked-list-in-python-singly">Linked List in Python (Singly)</a>
+<ul>
 <li><a href="#doubly-linked-list-in-python">Doubly Linked List in Python</a></li>
+</ul></li>
 <li><a href="#时间-空间复杂度-time-space-complexity">时间/空间复杂度 (Time/Space Complexity)</a></li>
 <li><a href="#some-fun-coding-challenges">Some fun coding challenges</a></li>
-</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -192,7 +191,7 @@
     <div class="post-content">
       
 
-<h3 id="什么是链表-what-is-a-linked-list">什么是链表 (What is a Linked List?)</h3>
+<h2 id="什么是链表-what-is-a-linked-list">什么是链表 (What is a Linked List?)</h2>
 
 <p>链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址的指针域。</p>
 
@@ -204,14 +203,15 @@
 
 <p>Another important type of a linked list is called a <strong>circular</strong> linked list, where last node of the list points back to the first node (or the head) of the list.</p>
 
-<h3 id="为什么使用链表-why-use-a-linked-list">为什么使用链表 (Why use a Linked List?)</h3>
+<h2 id="为什么使用链表-why-use-a-linked-list">为什么使用链表 (Why use a Linked List?)</h2>
 
 <p>当时用数组存储数据时，我们必须事先定义数组长度。如果我们对数组大小不确定，必须把数组定义的足够大。但这样会造成内存浪费。另外，数组中的插入或者删除元素也会造成很大的时间开销。</p>
 
 <p>但是链表失去了数组可以随机读取的优点，同时链表增加了结点的指针域，使得空间开销较大。</p>
 
-<p><strong>Pros:</strong>
-One disadvantage of using arrays to store data is that arrays are static structures and therefore cannot be easily extended or reduced to fit the data set. Arrays are also too expensive to maintain new insertions and deletions.</p>
+<p><strong>Pros:</strong></p>
+
+<p>One disadvantage of using arrays to store data is that arrays are static structures and therefore cannot be easily extended or reduced to fit the data set. Arrays are also too expensive to maintain new insertions and deletions.</p>
 
 <p>Given the feature of the linked list, that the numbers of nodes in the list can grow and shrink on demand,  any application which has to deal with an unknown number of objects will need to use a linked list.</p>
 
@@ -221,8 +221,9 @@ One disadvantage of using arrays to store data is that arrays are static structu
 <li>Can be traversed in both forward and backward direction.</li>
 </ul>
 
-<p><strong>Cons:</strong>
-One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at at the head and follow the references until you get to that item.</p>
+<p><strong>Cons:</strong></p>
+
+<p>One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at at the head and follow the references until you get to that item.</p>
 
 <p>Another disadvantage is that a linked list uses more memory compared with an array. We use extra 4 bytes (on a 32-bit CPU) to store a reference to the next node.</p>
 
@@ -232,13 +233,13 @@ One disadvantage of a linked list against an array is that it does not allow dir
 <li>All operations require an extra pointer to be maintained.</li>
 </ul>
 
-<h3 id="链表特点-features">链表特点 (Features)</h3>
+<h2 id="链表特点-features">链表特点 (Features)</h2>
 
 <p><code>头指针</code>是指链表中的第一个结点的储存位置。为了简化链表的操作，有时会在链表的第一个结点之前设置一个新的结点，称为头结点。头结点的数据域可以不储存任何信息，也可以储存如线性表长度等附加信息，指针域储存指向第一个结点的指针。最后一个结点则指向<code>Null</code></p>
 
 <p>The last node has a reference to <code>null</code>. The entry point into a linked list is called a <code>head</code> of the list. It should be noted that <code>head</code> is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference.</p>
 
-<h3 id="linked-list-in-java-singly">Linked List in Java (Singly)</h3>
+<h2 id="linked-list-in-java-singly">Linked List in Java (Singly)</h2>
 
 <pre><code class="language-java">private static class Node&lt;T&gt;
 {
@@ -261,7 +262,7 @@ One disadvantage of a linked list against an array is that it does not allow dir
 <p>A static java inner class cannot have instances. A non-static java inner class can have instances that belong to the outer class.</p>
 </blockquote>
 
-<h3 id="linked-list-in-python-singly">Linked List in Python (Singly)</h3>
+<h2 id="linked-list-in-python-singly">Linked List in Python (Singly)</h2>
 
 <pre><code class="language-python">class Node:
     def __init__(self, val):
@@ -299,7 +300,7 @@ One disadvantage of a linked list against an array is that it does not allow dir
         self.prev = None
 </code></pre>
 
-<h3 id="时间-空间复杂度-time-space-complexity">时间/空间复杂度 (Time/Space Complexity)</h3>
+<h2 id="时间-空间复杂度-time-space-complexity">时间/空间复杂度 (Time/Space Complexity)</h2>
 
 <ul>
 <li><p><strong>Singly-Linked List</strong></p>
@@ -332,7 +333,7 @@ One disadvantage of a linked list against an array is that it does not allow dir
 </ul></li>
 </ul>
 
-<h3 id="some-fun-coding-challenges">Some fun coding challenges</h3>
+<h2 id="some-fun-coding-challenges">Some fun coding challenges</h2>
 
 <ul>
 <li>Traverse a linked list: singly and doubly.</li>
@@ -347,9 +348,12 @@ One disadvantage of a linked list against an array is that it does not allow dir
 <li>Add two linked lists from right to left.</li>
 </ul>
 
-<p><strong>More details:</strong>
-- <a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html">LinkedLists</a>
-- <a href="http://bigocheatsheet.com/">Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell</a></p>
+<p><strong>More details:</strong></p>
+
+<ul>
+<li><a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html">LinkedLists</a></li>
+<li><a href="http://bigocheatsheet.com/">Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell</a></li>
+</ul>
 
     </div>
 
