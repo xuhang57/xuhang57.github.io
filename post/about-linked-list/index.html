@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>链表 - About Linked List - Lucas Xu - code, write, think, change</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Lucas Xu" />
+  <meta name="description" content="什么是链表 (What is a Linked List?) 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址" />
+
+  <meta name="keywords" content="Lucas, blog, thoughts, programming" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.36" />
+
+
+<link rel="canonical" href="https://lucashangxu.pw/post/about-linked-list/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.0.0" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="链表 - About Linked List" />
+<meta property="og:description" content="什么是链表 (What is a Linked List?) 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lucashangxu.pw/post/about-linked-list/" />
+
+
+
+<meta property="article:published_time" content="2018-02-24T22:03:42-05:00"/>
+
+<meta property="article:modified_time" content="2018-02-24T22:03:42-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="链表 - About Linked List">
+<meta itemprop="description" content="什么是链表 (What is a Linked List?) 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址">
+
+
+<meta itemprop="datePublished" content="2018-02-24T22:03:42-05:00" />
+<meta itemprop="dateModified" content="2018-02-24T22:03:42-05:00" />
+<meta itemprop="wordCount" content="1088">
+
+
+
+<meta itemprop="keywords" content="English,notes,linked list," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="链表 - About Linked List"/>
+<meta name="twitter:description" content="什么是链表 (What is a Linked List?) 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lucas Xu</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lucas Xu</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">链表 - About Linked List</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-02-24 </span>
+        <div class="post-category">
+            
+              <a href="/categories/data-structure/"> data structure </a>
+            
+          </div>
+        <span class="more-meta"> 1088 words </span>
+        <span class="more-meta"> 3 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#什么是链表-what-is-a-linked-list">什么是链表 (What is a Linked List?)</a></li>
+<li><a href="#为什么使用链表-why-use-a-linked-list">为什么使用链表 (Why use a Linked List?)</a></li>
+<li><a href="#链表特点-features">链表特点 (Features)</a></li>
+<li><a href="#linked-list-in-java-singly">Linked List in Java (Singly)</a></li>
+<li><a href="#linked-list-in-python-singly">Linked List in Python (Singly)</a></li>
+<li><a href="#doubly-linked-list-in-python">Doubly Linked List in Python</a></li>
+<li><a href="#时间-空间复杂度-time-space-complexity">时间/空间复杂度 (Time/Space Complexity)</a></li>
+<li><a href="#some-fun-coding-challenges">Some fun coding challenges</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h3 id="什么是链表-what-is-a-linked-list">什么是链表 (What is a Linked List?)</h3>
+
+<p>链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址的指针域。</p>
+
+<p>A linked list is a linear data structure where each element is a separate object. It is a collection of nodes.</p>
+
+<p>Each element (node) of a list is comprising of two items: the data and a reference to the next node (<strong>Singly</strong> linked list).</p>
+
+<p>A <strong>doubly</strong> linked list is a list that has two two references, one to the next node and another previous node.</p>
+
+<p>Another important type of a linked list is called a <strong>circular</strong> linked list, where last node of the list points back to the first node (or the head) of the list.</p>
+
+<h3 id="为什么使用链表-why-use-a-linked-list">为什么使用链表 (Why use a Linked List?)</h3>
+
+<p>当时用数组存储数据时，我们必须事先定义数组长度。如果我们对数组大小不确定，必须把数组定义的足够大。但这样会造成内存浪费。另外，数组中的插入或者删除元素也会造成很大的时间开销。</p>
+
+<p>但是链表失去了数组可以随机读取的优点，同时链表增加了结点的指针域，使得空间开销较大。</p>
+
+<p><strong>Pros:</strong>
+One disadvantage of using arrays to store data is that arrays are static structures and therefore cannot be easily extended or reduced to fit the data set. Arrays are also too expensive to maintain new insertions and deletions.</p>
+
+<p>Given the feature of the linked list, that the numbers of nodes in the list can grow and shrink on demand,  any application which has to deal with an unknown number of objects will need to use a linked list.</p>
+
+<ul>
+<li>A linked list saves memory.</li>
+<li>Linked list nodes can live anywhere in the memory (an array requires a sequence of memory to be initiated).</li>
+<li>Can be traversed in both forward and backward direction.</li>
+</ul>
+
+<p><strong>Cons:</strong>
+One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements. If you want to access a particular item then you have to start at at the head and follow the references until you get to that item.</p>
+
+<p>Another disadvantage is that a linked list uses more memory compared with an array. We use extra 4 bytes (on a 32-bit CPU) to store a reference to the next node.</p>
+
+<ul>
+<li>Linear look up time. (Many languages allow constant lookups in arrays).</li>
+<li>Every node requires extra space for a previous pointer.</li>
+<li>All operations require an extra pointer to be maintained.</li>
+</ul>
+
+<h3 id="链表特点-features">链表特点 (Features)</h3>
+
+<p><code>头指针</code>是指链表中的第一个结点的储存位置。为了简化链表的操作，有时会在链表的第一个结点之前设置一个新的结点，称为头结点。头结点的数据域可以不储存任何信息，也可以储存如线性表长度等附加信息，指针域储存指向第一个结点的指针。最后一个结点则指向<code>Null</code></p>
+
+<p>The last node has a reference to <code>null</code>. The entry point into a linked list is called a <code>head</code> of the list. It should be noted that <code>head</code> is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference.</p>
+
+<h3 id="linked-list-in-java-singly">Linked List in Java (Singly)</h3>
+
+<pre><code class="language-java">private static class Node&lt;T&gt;
+{
+    private T data;
+    private Node&lt;T&gt; next;
+
+    public Node(T data, Node&lt;T&gt; next)
+    {
+         this.data = data;
+         this.next = next;
+    }
+}
+</code></pre>
+
+<p>In <code>Java</code>, you can define an inner class. It is a member of its enclosing class and has access to other members (including private) of the outer class. And vise versa, the outer class can have a direct access to all members of the inner class.</p>
+
+<p>An inner class can be declared private, public, protected, or package private. There are two kind of inner classes: <code>static</code> and <code>non-static</code>. A static inner class cannot refer directly to instance variables or methods methods defined in its outer class: it can use them only through an object reference.</p>
+
+<blockquote>
+<p>A static java inner class cannot have instances. A non-static java inner class can have instances that belong to the outer class.</p>
+</blockquote>
+
+<h3 id="linked-list-in-python-singly">Linked List in Python (Singly)</h3>
+
+<pre><code class="language-python">class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+    def getVal(self):
+        return self.val
+
+    def getNext(self):
+        return self.next
+
+    def setVal(self, new_val):
+        self.val = new_val
+
+    def setNext(self, new_next):
+        self.next = new_next
+
+&gt;&gt;&gt; node1 = Node(12)
+&gt;&gt;&gt; node2 = Node(99)
+&gt;&gt;&gt; node3 = Node(37)
+
+&gt;&gt;&gt; node1.next = node2 # 12 -&gt; 99
+&gt;&gt;&gt; node2.next = node3 # 99 -&gt; 37
+
+# the entire linkded list now looks like 12 -&gt; 99 -&gt; 37
+</code></pre>
+
+<h3 id="doubly-linked-list-in-python">Doubly Linked List in Python</h3>
+
+<pre><code class="language-python">class DoublyNode:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+        self.prev = None
+</code></pre>
+
+<h3 id="时间-空间复杂度-time-space-complexity">时间/空间复杂度 (Time/Space Complexity)</h3>
+
+<ul>
+<li><p><strong>Singly-Linked List</strong></p>
+
+<ul>
+<li><p>Time Complexity</p>
+
+<ul>
+<li>Access: O(n)</li>
+<li>Search: O(n)</li>
+<li>Insertion: O(1) (Considering “Indexing” is a separate operation.)</li>
+<li>Deletion: O(1)</li>
+</ul></li>
+
+<li><p>Space Complexity: O(n)</p></li>
+</ul></li>
+
+<li><p><strong>Doubly-Linked List</strong></p>
+
+<ul>
+<li>Time Complexity
+
+<ul>
+<li>Access: O(n)</li>
+<li>Search: O(n)</li>
+<li>Insertion: O(1)</li>
+<li>Deletion: O(1)</li>
+</ul></li>
+<li>Space Complexity: O(n)</li>
+</ul></li>
+</ul>
+
+<h3 id="some-fun-coding-challenges">Some fun coding challenges</h3>
+
+<ul>
+<li>Traverse a linked list: singly and doubly.</li>
+<li>Remove duplicates from a linked list.</li>
+<li>Get the nth to last element from a linked list.</li>
+<li>Delete a node from a linked list: singly and doubly.</li>
+<li>Add two linked lists from left to right.
+
+<ul>
+<li>e.g.  1 -&gt; 2 -&gt; 3 + 4 -&gt; 5 =&gt; 321 + 54 = 375</li>
+</ul></li>
+<li>Add two linked lists from right to left.</li>
+</ul>
+
+<p><strong>More details:</strong>
+- <a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html">LinkedLists</a>
+- <a href="http://bigocheatsheet.com/">Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell</a></p>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Lucas Xu</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-02-24</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/english/">English</a>
+          
+          <a href="/tags/notes/">notes</a>
+          
+          <a href="/tags/linked-list/">linked list</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/post/code-coverage-in-python/">
+            <span class="next-text nav-default">Code Coverage in Python</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+  
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://stackoverflow.com/users/8379419/lucas" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://www.linkedin.com/in/hangxulucas/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/xuhang57" class="iconfont icon-github" title="github"></a>
+      <a href="https://zhuanlan.zhihu.com/lucasshare" class="iconfont icon-zhihu" title="zhihu"></a>
+  <a href="https://lucashangxu.pw/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2017 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Lucas Xu</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.0.0"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    });
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-114110516-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
