@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/xuhang57
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lucashangxu.pw
+  * I am xuhang57 (https://keybase.io/xuhang57) on keybase.
+  * I have a public key ASDZtjCtXp-eu8ix7SewdhQHIQRiVfstD3xYhWV015a8xAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d9b630ad5e9f9ebbc8b1ed27b076140721046255fb2d0f7c58856574d796bcc40a",
+      "host": "keybase.io",
+      "kid": "0120d9b630ad5e9f9ebbc8b1ed27b076140721046255fb2d0f7c58856574d796bcc40a",
+      "uid": "0f679910655a0c280d95ac57213da819",
+      "username": "xuhang57"
+    },
+    "merkle_root": {
+      "ctime": 1520192494,
+      "hash": "ca3dc0c98431a1139c56ca61837edfdbc26e592602281e9c6338842c308dafce59d577b59ebd10ef982a3c8dc864e0b549a6258e10e863ac7ae3cd000b353083",
+      "hash_meta": "16b4a986957143b6a897f31d95fc6c7fe801786d8ce9ad979ba9ea32e1828150",
+      "seqno": 2183421
+    },
+    "service": {
+      "hostname": "lucashangxu.pw",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.44"
+  },
+  "ctime": 1520192500,
+  "expire_in": 504576000,
+  "prev": "a42f0d03f85fab447d1bde8aa473a1ab9206a7dbe30916a5d867d790c0619cbb",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2bYwrV6fnrvIse0nsHYUByEEYlX7LQ98WIVldNeWvMQKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZDliNjMwYWQ1ZTlmOWViYmM4YjFlZDI3YjA3NjE0MDcyMTA0NjI1NWZiMmQwZjdjNTg4NTY1NzRkNzk2YmNjNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDliNjMwYWQ1ZTlmOWViYmM4YjFlZDI3YjA3NjE0MDcyMTA0NjI1NWZiMmQwZjdjNTg4NTY1NzRkNzk2YmNjNDBhIiwidWlkIjoiMGY2Nzk5MTA2NTVhMGMyODBkOTVhYzU3MjEzZGE4MTkiLCJ1c2VybmFtZSI6Inh1aGFuZzU3In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTIwMTkyNDk0LCJoYXNoIjoiY2EzZGMwYzk4NDMxYTExMzljNTZjYTYxODM3ZWRmZGJjMjZlNTkyNjAyMjgxZTljNjMzODg0MmMzMDhkYWZjZTU5ZDU3N2I1OWViZDEwZWY5ODJhM2M4ZGM4NjRlMGI1NDlhNjI1OGUxMGU4NjNhYzdhZTNjZDAwMGIzNTMwODMiLCJoYXNoX21ldGEiOiIxNmI0YTk4Njk1NzE0M2I2YTg5N2YzMWQ5NWZjNmM3ZmU4MDE3ODZkOGNlOWFkOTc5YmE5ZWEzMmUxODI4MTUwIiwic2Vxbm8iOjIxODM0MjF9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibHVjYXNoYW5neHUucHciLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NCJ9LCJjdGltZSI6MTUyMDE5MjUwMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJhNDJmMGQwM2Y4NWZhYjQ0N2QxYmRlOGFhNDczYTFhYjkyMDZhN2RiZTMwOTE2YTVkODY3ZDc5MGMwNjE5Y2JiIiwic2Vxbm8iOjE1LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQOzRKbDEpcvJrRnIRYV19xKQHZbpwPUlf5vchYhlAskzV3cK2/GUObOJogCXWiJ8euzD+u76G+vux0CkQtzPxgqoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDHOCHwvPFgkUAlsiuWPA3ubEnDjb3U28BgPsZfqB1GmKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xuhang57
+
+==================================================================
