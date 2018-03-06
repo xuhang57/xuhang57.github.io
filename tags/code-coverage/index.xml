@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code Coverage on Lucas Xu - code, write, think, change</title>
+    <title>Code coverage on Lucas Xu</title>
     <link>https://lucashangxu.pw/tags/code-coverage/</link>
-    <description>Recent content in Code Coverage on Lucas Xu - code, write, think, change</description>
+    <description>Recent content in Code coverage on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Lucas Xu</copyright>
-    <lastBuildDate>Fri, 23 Feb 2018 21:22:12 -0500</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucashangxu.pw/tags/code-coverage/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code Coverage in Python</title>
-      <link>https://lucashangxu.pw/post/code-coverage-in-python/</link>
-      <pubDate>Fri, 23 Feb 2018 21:22:12 -0500</pubDate>
+      <link>https://lucashangxu.pw/en/2018/02/code-coverage-in-python/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucashangxu.pw/post/code-coverage-in-python/</guid>
+      <guid>https://lucashangxu.pw/en/2018/02/code-coverage-in-python/</guid>
       <description>What is Code Coverage? In short, Code Coverage testing is determining how much code is tested.
  Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &amp;mdash; Wikipedia Code coverage - Wikipedia
  Why Test Code Coverage? Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written.</description>

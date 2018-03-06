@@ -1,73 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lucas Xu - code, write, think, change</title>
+    <title>Homepage on Lucas Xu</title>
     <link>https://lucashangxu.pw/</link>
-    <description>Recent content on Lucas Xu - code, write, think, change</description>
+    <description>Recent content in Homepage on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Lucas Xu</copyright>
-    <lastBuildDate>Sat, 24 Feb 2018 22:03:42 -0500</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucashangxu.pw/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>链表 - About Linked List</title>
-      <link>https://lucashangxu.pw/post/about-linked-list/</link>
-      <pubDate>Sat, 24 Feb 2018 22:03:42 -0500</pubDate>
+      <title>Linked List</title>
+      <link>https://lucashangxu.pw/en/2018/02/linked-list/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucashangxu.pw/post/about-linked-list/</guid>
-      <description>什么是链表 (What is a Linked List?) 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址</description>
+      <guid>https://lucashangxu.pw/en/2018/02/linked-list/</guid>
+      <description>What is a Linked List? A linked list is a linear data structure where each element is a separate object. It is a collection of nodes.
+Each element (node) of a list is comprising of two items: the data and a reference to the next node (Singly linked list).
+A doubly linked list is a list that has two two references, one to the next node and another previous node.</description>
+    </item>
+    
+    <item>
+      <title>链表</title>
+      <link>https://lucashangxu.pw/cn/2018/02/linked-list/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/2018/02/linked-list/</guid>
+      <description>什么是链表 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址的指针域。</description>
     </item>
     
     <item>
       <title>Code Coverage in Python</title>
-      <link>https://lucashangxu.pw/post/code-coverage-in-python/</link>
-      <pubDate>Fri, 23 Feb 2018 21:22:12 -0500</pubDate>
+      <link>https://lucashangxu.pw/en/2018/02/code-coverage-in-python/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucashangxu.pw/post/code-coverage-in-python/</guid>
+      <guid>https://lucashangxu.pw/en/2018/02/code-coverage-in-python/</guid>
       <description>What is Code Coverage? In short, Code Coverage testing is determining how much code is tested.
  Test coverage is a measured used to describe the degree to which source code of a program is executed when a particular test suits runs. &amp;mdash; Wikipedia Code coverage - Wikipedia
  Why Test Code Coverage? Code coverage testing helps you to figure out how well your tests actually test your code. Especially when the code base is large, it lets you have a clear understanding of how well your tests have been written.</description>
     </item>
     
     <item>
-      <title>推荐的博客</title>
-      <link>https://lucashangxu.pw/post/a-list-of-blogs-cn/</link>
-      <pubDate>Mon, 19 Feb 2018 11:27:07 -0500</pubDate>
-      
-      <guid>https://lucashangxu.pw/post/a-list-of-blogs-cn/</guid>
-      <description>这里推荐的博客都是中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：A List of Blogs - Lucas Xu - code, write, think, change 阮一峰的网络日志 廖雪峰的官方网站 Just For Fun | 知其</description>
-    </item>
-    
-    <item>
-      <title>A List of Blogs</title>
-      <link>https://lucashangxu.pw/post/a-list-of-blogs/</link>
-      <pubDate>Sun, 18 Feb 2018 01:04:56 -0500</pubDate>
-      
-      <guid>https://lucashangxu.pw/post/a-list-of-blogs/</guid>
-      <description>Here is a list of my favorite blogs written in English. I will keep updating the list.
-Computer Science/Software/Programming in general  Coding Horror Home of Feross Aboukhadijeh » Feross.org Joel on Software Junior Dev Diaries — Sam Jarman Teach Yourself Computer Science Peter Norvig  Self-Learning  GitHub - jwasham/coding-interview-university: A complete computer science study plan to become a software engineer. Teach Yourself Computer Science Learning Programming GitHub - ossu/computer-science: Path to a free self-taught education in Computer Science!</description>
-    </item>
-    
-    <item>
       <title>为什么写博客</title>
-      <link>https://lucashangxu.pw/post/why-writing-a-blog-cn/</link>
-      <pubDate>Thu, 15 Feb 2018 22:49:30 -0500</pubDate>
+      <link>https://lucashangxu.pw/cn/2018/02/why-writing-a-blog/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucashangxu.pw/post/why-writing-a-blog-cn/</guid>
+      <guid>https://lucashangxu.pw/cn/2018/02/why-writing-a-blog/</guid>
       <description>以前觉得写博客，就是写平时的点点滴滴，或者是表达自己对一些周围事情的想法。后来，读了很多其他的人写的博客之后，才发现写博客并不是写流水账。而</description>
     </item>
     
     <item>
       <title>Why Writing a Blog</title>
-      <link>https://lucashangxu.pw/post/why-writing-a-blog/</link>
-      <pubDate>Tue, 13 Feb 2018 21:53:12 -0500</pubDate>
+      <link>https://lucashangxu.pw/en/2018/02/why-write-a-blog/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucashangxu.pw/post/why-writing-a-blog/</guid>
+      <guid>https://lucashangxu.pw/en/2018/02/why-write-a-blog/</guid>
       <description>I read posts on different blogs regularly. For example,
  Coding Horror Home of Feross Aboukhadijeh » Feross.org Joel on Software  Building a great blog is a long-time commitment and it is not an easy one. It is difficult that you do not always know what you would want to write about. In addition, writing in English, which is not my native language, makes the posts not so clear and concise.</description>
+    </item>
+    
+    <item>
+      <title>Blogs I Visit Frequently</title>
+      <link>https://lucashangxu.pw/en/other-blogs/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/en/other-blogs/</guid>
+      <description>Here is a list of my favorite blogs written in English. You are more than welcome to recommend me some other great blogs that worth to follow.
+Computer Science/Software/Programming in general  Coding Horror Home of Feross Aboukhadijeh » Feross.org Joel on Software Junior Dev Diaries — Sam Jarman Teach Yourself Computer Science Peter Norvig  Self-Learning  GitHub - jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.</description>
+    </item>
+    
+    <item>
+      <title>我常看的博客</title>
+      <link>https://lucashangxu.pw/cn/other-blogs/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/other-blogs/</guid>
+      <description>这里是我常看的中文博客。如果你对英文博客感兴趣，请看我另外一片文章 ：A List of Blogs - Lucas Xu - code, write, think, change 如果有其他你认为值得推荐的博客，也十分欢迎推荐给</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://lucashangxu.pw/en/about/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/en/about/</guid>
+      <description>My name is Hang Xu and I usually go by Lucas. I am working as a software engineer at Mass Open Cloud (MOC) at the moment.
+I graduated from Boston University (BU) in May 2016 with a double major in Computer Science and Statistics. After I graduated, I started to work full-time at MOC. Besides programming and math, I also have a great passion about finance and economics. I hope this blog can give you a better sense about my passions since I believe they can be shown through more about your actions rather than your talking.</description>
+    </item>
+    
+    <item>
+      <title>Résumé</title>
+      <link>https://lucashangxu.pw/en/cv/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/en/cv/</guid>
+      <description>Hang Xu Education Boston University [2012 - 2016]  Bachelor’s Degree, Computer Science [2012 - 2016] Bachelor’s Degree, Statistics [2012 - 2016]  Employment Mass Open Cloud — software engineer [2016 - present]  Technical Lead responsible for coordinating the day to day development for all parts of the GIJI project, a cloud-computing infrastructure that abstracts OpenStack cloud into a simple interface. Also, serving as a gateway to access to different MOC services such as Cloud Dataverse.</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://lucashangxu.pw/cn/about/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/about/</guid>
+      <description>敬请期待</description>
+    </item>
+    
+    <item>
+      <title>简历</title>
+      <link>https://lucashangxu.pw/cn/cv/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/cv/</guid>
+      <description>敬请期待</description>
     </item>
     
   </channel>

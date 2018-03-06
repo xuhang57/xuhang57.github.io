@@ -1,164 +1,145 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="https://lucashangxu.pw/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucashangxu.pw/post/about-linked-list/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://lucashangxu.pw/en/2018/02/linked-list/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/post/code-coverage-in-python/</loc>
-    <lastmod>2018-02-23T21:22:12-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://lucashangxu.pw/cn/2018/02/linked-list/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/post/a-list-of-blogs-cn/</loc>
-    <lastmod>2018-02-19T11:27:07-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://lucashangxu.pw/en/2018/02/code-coverage-in-python/</loc>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/post/a-list-of-blogs/</loc>
-    <lastmod>2018-02-18T01:04:56-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://lucashangxu.pw/cn/2018/02/why-writing-a-blog/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/post/why-writing-a-blog-cn/</loc>
-    <lastmod>2018-02-15T22:49:30-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://lucashangxu.pw/en/2018/02/why-write-a-blog/</loc>
+    <lastmod>2018-02-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/post/why-writing-a-blog/</loc>
-    <lastmod>2018-02-13T21:53:12-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://lucashangxu.pw/en/other-blogs/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/cn/other-blogs/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/en/about/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/en/cv/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/cn/about/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/cn/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/cn/cv/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/blog/</loc>
-    <lastmod>2018-02-15T22:49:30-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/blogs/</loc>
-    <lastmod>2018-02-19T11:27:07-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/categories/</loc>
-    <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/chinese/</loc>
-    <lastmod>2018-02-19T11:27:07-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/code-coverage/</loc>
-    <lastmod>2018-02-23T21:22:12-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/tags/computer-science/</loc>
-    <lastmod>2018-02-19T11:27:07-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://lucashangxu.pw/tags/concepts/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/categories/data-structure/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/english/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/categories/general/</loc>
-    <lastmod>2018-02-15T22:49:30-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/linked-list/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/notes/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/post/</loc>
-    <lastmod>2018-02-24T22:03:42-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
+    <loc>https://lucashangxu.pw/en/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/categories/programming/</loc>
-    <lastmod>2018-02-23T21:22:12-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/python/</loc>
-    <lastmod>2018-02-23T21:22:12-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/resources/</loc>
-    <lastmod>2018-02-19T11:27:07-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/</loc>
-    <lastmod>2018-02-15T22:49:30-05:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

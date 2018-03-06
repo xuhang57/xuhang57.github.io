@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Lucas Xu - code, write, think, change</title>
+    <title>Categories on Lucas Xu</title>
     <link>https://lucashangxu.pw/categories/</link>
-    <description>Recent content in Categories on Lucas Xu - code, write, think, change</description>
+    <description>Recent content in Categories on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Lucas Xu</copyright>
+    <language>en-us</language>
     
 	<atom:link href="https://lucashangxu.pw/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Data Structure</title>
+      <title>Data-structure</title>
       <link>https://lucashangxu.pw/categories/data-structure/</link>
-      <pubDate>Sat, 24 Feb 2018 22:03:42 -0500</pubDate>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucashangxu.pw/categories/data-structure/</guid>
       <description></description>
@@ -23,7 +22,7 @@
     <item>
       <title>General</title>
       <link>https://lucashangxu.pw/categories/general/</link>
-      <pubDate>Thu, 15 Feb 2018 22:49:30 -0500</pubDate>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucashangxu.pw/categories/general/</guid>
       <description></description>
@@ -32,18 +31,9 @@
     <item>
       <title>Programming</title>
       <link>https://lucashangxu.pw/categories/programming/</link>
-      <pubDate>Fri, 23 Feb 2018 21:22:12 -0500</pubDate>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucashangxu.pw/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://lucashangxu.pw/categories/resources/</link>
-      <pubDate>Mon, 19 Feb 2018 11:27:07 -0500</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/resources/</guid>
       <description></description>
     </item>
     

@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linked List on Lucas Xu - code, write, think, change</title>
+    <title>Linked-list on Lucas Xu</title>
     <link>https://lucashangxu.pw/tags/linked-list/</link>
-    <description>Recent content in Linked List on Lucas Xu - code, write, think, change</description>
+    <description>Recent content in Linked-list on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Lucas Xu</copyright>
-    <lastBuildDate>Sat, 24 Feb 2018 22:03:42 -0500</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucashangxu.pw/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>链表 - About Linked List</title>
-      <link>https://lucashangxu.pw/post/about-linked-list/</link>
-      <pubDate>Sat, 24 Feb 2018 22:03:42 -0500</pubDate>
+      <title>Linked List</title>
+      <link>https://lucashangxu.pw/en/2018/02/linked-list/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucashangxu.pw/post/about-linked-list/</guid>
-      <description>什么是链表 (What is a Linked List?) 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址</description>
+      <guid>https://lucashangxu.pw/en/2018/02/linked-list/</guid>
+      <description>What is a Linked List? A linked list is a linear data structure where each element is a separate object. It is a collection of nodes.
+Each element (node) of a list is comprising of two items: the data and a reference to the next node (Singly linked list).
+A doubly linked list is a list that has two two references, one to the next node and another previous node.</description>
+    </item>
+    
+    <item>
+      <title>链表</title>
+      <link>https://lucashangxu.pw/cn/2018/02/linked-list/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/2018/02/linked-list/</guid>
+      <description>什么是链表 链表是有一连串结点（链表中的元素称为结点），每个结点由两部分组成，一个是储存数据元素的数据域，另一个是储存下一个结点地址的指针域。</description>
     </item>
     
   </channel>
