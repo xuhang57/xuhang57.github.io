@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucashangxu.pw/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Binary</title>
+      <link>https://lucashangxu.pw/tags/binary/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/tags/binary/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog</title>
@@ -48,9 +57,18 @@
     </item>
     
     <item>
+      <title>Digital</title>
+      <link>https://lucashangxu.pw/tags/digital/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/tags/digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>English</title>
       <link>https://lucashangxu.pw/tags/english/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucashangxu.pw/tags/english/</guid>
       <description></description>

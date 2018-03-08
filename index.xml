@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Digital Logic</title>
+      <link>https://lucashangxu.pw/en/2018/03/digital-logic/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/en/2018/03/digital-logic/</guid>
+      <description>Computer language Computer ( or say, CPU in computer) computes using 0s and 1s at a really fast rate. In other words, it uses a Binary System. (base-2 numeral system)
+In computer term, we group binary into 8 numbers or bits. Technically, a bit is a binary digit. Historically, we used 8 bits because in the early days of computing, hardware utilized the base-2 numeral system to move bits around.</description>
+    </item>
+    
+    <item>
       <title>Linked List</title>
       <link>https://lucashangxu.pw/en/2018/02/linked-list/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
@@ -87,7 +97,7 @@ Computer Science/Software/Programming in general  Coding Horror Home of Feross A
       
       <guid>https://lucashangxu.pw/en/about/</guid>
       <description>My name is Hang Xu and I usually go by Lucas. I am working as a software engineer at Mass Open Cloud (MOC) at the moment.
-I graduated from Boston University (BU) in May 2016 with a double major in Computer Science and Statistics. After I graduated, I started to work full-time at MOC. Besides programming and math, I also have a great passion about finance and economics. I hope this blog can give you a better sense about my passions since I believe they can be shown through more about your actions rather than your talking.</description>
+I graduated from Boston University (BU) in May 2016 with a double major in Computer Science and Statistics. After I graduated, I started to work full-time at MOC. Besides programming and math, I also have a great passion for finance and economics. I hope this blog can give you a better sense of my passions since I believe they can be shown through more about your actions rather than your talking.</description>
     </item>
     
     <item>
