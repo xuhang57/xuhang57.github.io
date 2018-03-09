@@ -6,10 +6,21 @@
     <description>Recent content in English on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucashangxu.pw/tags/english/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The TCP/IP Five-Layer Network Model</title>
+      <link>https://lucashangxu.pw/en/2018/03/tcp-ip-network-model/</link>
+      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/en/2018/03/tcp-ip-network-model/</guid>
+      <description>Physical Layer Physical layer represents the physical devices that interconnect computers, which includes the specifications for the networking cables and the connectors that join devices together along with specifications how signals are sent over these connections.
+Data Link Layer (Network Interface, or Network Access Layer) Data link layer is responsible for defining a common way of interpreting these signals so network devices can communicate.
+The most common protocol is called Ethernet, even though wireless technologies are also very common in today’s world.</description>
+    </item>
     
     <item>
       <title>Digital Logic</title>
