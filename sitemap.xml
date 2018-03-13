@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://lucashangxu.pw/cn/2018/03/financial-concepts/</loc>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/en/2018/03/tcp-ip-network-model/</loc>
     <lastmod>2018-03-09T00:00:00+00:00</lastmod>
   </url>
@@ -101,7 +106,7 @@
   
   <url>
     <loc>https://lucashangxu.pw/tags/chinese/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,7 +136,7 @@
   
   <url>
     <loc>https://lucashangxu.pw/tags/concepts/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,6 +155,12 @@
   <url>
     <loc>https://lucashangxu.pw/tags/english/</loc>
     <lastmod>2018-03-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/categories/finance/</loc>
+    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
