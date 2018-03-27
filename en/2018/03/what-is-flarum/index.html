@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Flarum - Lucas Xu</title>
+    <meta property="og:title" content="Flarum - Lucas Xu">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  
+  <body class="en">
+    <header class="masthead">
+      <h1><a href="/">Lucas Xu</a></h1>
+
+<p class="tagline">Code, Thoughts, Share</p>
+
+      <nav class="menu">
+        <input id="menu-check" type="checkbox" />
+        <label id="menu-label" for="menu-check" class="unselectable">
+          <span class="icon close-icon">✕</span>
+          <span class="icon open-icon">☰</span>
+          <span class="text">Menu</span>
+        </label>
+        <ul>
+        
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/en/about/">About</a></li>
+        
+        <li><a href="/en/cv/">CV</a></li>
+        
+        <li><a href="/cn/">中文</a></li>
+        
+        <li><a href="/en/">Blog</a></li>
+        
+        
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main">
+      <header class="title">
+      
+<h1>Flarum</h1>
+
+<h3>Lucas Xu
+  /  2018-03-27</h3>
+<hr>
+
+
+      </header>
+
+
+
+
+
+<h3 id="what-is-flarum">What is Flarum</h3>
+
+<p>Flarum is a free, open-source forum software based on PHP 5.5+ with a focus on simplicity.</p>
+
+<p>References:
+<a href="http://flarum.org/">Flarum – Forums Made Simple</a>
+<a href="http://flarum.org.cn/">Flarum 中文站：优雅简洁的轻论坛</a>
+<a href="https://github.com/flarum/flarum">GitHub - flarum/flarum: Delightfully simple forum software.</a></p>
+
+<h3 id="setup">Setup</h3>
+
+<p>Requirements:
+    - PHP 5.6+ &lt;=7.1 (mbstring, pdo_mysql, openssl, json, gd, dom, fileinfo)
+    - MySQL 5.5+
+    - A web server: Apache (with mod_rewrite), Nginx, or Lighttpd
+    - SSH access</p>
+
+<pre><code class="language-bash"># using a Ubuntu 16.04 LTS virtual machine to deploy
+
+# upgrade sys. requirements and dependencies
+sudo apt-get update &amp;&amp; sudo apt-get upgrade
+
+# install nginx or install from ppa:ondrej/nginx
+sudo apt install nginx
+
+# install php7.0
+sudo apt-get install php7.0-fpm php7.0-mysql php7.0-gd php7.0-dom php7.0-mbstring php7.0-curl php7.0-xml
+
+# install mysql5.7 and setup the root user
+sudo apt-get install mysql-server-5.7
+
+# create mysql user and database
+# log in database as a root user
+mysql -u root -p
+# within mysql
+create user 'username'@'localhost';
+set password for 'username'@'localhost' = password('123456');
+create database flarum;
+grant all privileges on flarum.* to 'username'@'localhost';
+flush privileges;
+
+# install composer: [Composer](https://getcomposer.org/)
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+# deploy Flarum 
+sudo mkdir -p /var/www/flarum
+cd /var/www/flarum
+sudo chown -R ubuntu:www-data /var/www/flarum
+composer create-project flarum/flarum . --stability=beta
+# install dependencies
+# [After configured my nginx conf and I got an error about php: - Flarum Community](https://discuss.flarum.org/d/9624-after-configured-my-nginx-conf-and-i-got-an-error-about-php/4)
+composer install --prefer-dist --no-dev --no-suggest -o
+# configure nginx and see example below
+vim /etc/nginx/sites-available/default
+sudo chmod -R g+w,o-rwx flarum/ flarum/assets/ flarum/storage/
+sudo service nginx restart
+</code></pre>
+
+<h3 id="nginx-configuration-example">Nginx Configuration example:</h3>
+
+<pre><code>server {
+    listen 80;
+    server_name &lt;YOUR_SERVER_NAME&gt;;
+    root /var/www/flarum;
+    index index.php index.html index.htm;
+
+    # security config
+    add_header X-Frame-Options SAMEORIGIN;
+    add_header X-Content-Type-Options nosniff;
+    add_header X-XSS-Protection &quot;1; mode=block&quot;;
+    fastcgi_hide_header X-Powered-By;
+    server_tokens off;
+
+    # gizp config
+    gzip on;
+    gzip_http_version 1.1;
+    gzip_vary on;
+    gzip_comp_level 6;
+    gzip_proxied any;
+    gzip_types application/atom+xml
+            application/javascript
+            application/json
+            application/vnd.ms-fontobject
+            application/x-font-ttf
+            application/x-web-app-manifest+json
+            application/xhtml+xml
+            application/xml
+            font/opentype
+            image/svg+xml
+            image/x-icon
+            text/css
+            #text/html -- text/html is gzipped by default by nginx
+            text/plain
+            text/xml;
+    gzip_buffers 16 8k;
+    gzip_disable &quot;MSIE [1-6]\.(?!.*SV1)&quot;;
+
+    # php config
+    location ~ \.php$ {
+        try_files $uri =404;
+        fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+        fastcgi_param  HTTP_MOD_REWRITE  On;
+    }
+
+    # url rewrite
+    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location /api { try_files $uri $uri/ /api.php?$query_string; }
+    location /admin { try_files $uri $uri/ /admin.php?$query_string; }
+
+    # expires config
+    location ~* \.html$ {
+        expires -1;
+    }
+    location ~* \.(?:ico|css|js|gif|bmp|jpe?g|mp4|pdf|mp3|png|svg|ttf|woff|woff2|otf|eot)$ {
+        access_log off;
+        expires 30d;
+        add_header Pragma public;
+        add_header Cache-Control &quot;public, mustrevalidate, proxy-revalidate&quot;;
+    }
+
+    # deny control
+    location /flarum {
+        deny all;
+        return 404;
+    }
+    location ~ /assets/.*\.(php)?$ {
+        deny all;
+    }
+
+}
+</code></pre>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Flarum doesn’t have a wonderful <code>Installation</code>documentation but its <code>community discussion panel</code> is really helpful. People there reply questions fast and they are very helpful. Strongly suggest to take advantage of that while you are deploying Flarum.</p>
+
+<p>The Graphics User Interface of Flarum is simple and gorgeous. And most importantly, it is free and open-source.</p>
+
+<p>Here is a Chinese forum using the Flaurm:
+    - <a href="https://d.cosx.org/">COS论坛 | 统计之都 | 统计与数据科学论坛</a></p>
+
+<p>More sites can be found here:
+    - <a href="https://discuss.flarum.org/d/1617-anyone-using-flarum-in-production/4">Anyone using Flarum in production ? - Flarum Community</a></p>
+
+<p>Another really pretty and well-designed platform is:
+    - <a href="https://nodebb.org/">NodeBB Forum Software | Drive user engagement with a modern community platform</a></p>
+
+
+  <footer>
+  
+  
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+  <hr>
+  <div class="copyright">&copy; <a href="https://lucashangxu.pw">Lucas Xu</a> 2018 | <a href="https://github.com/xuhang57">Github</a> | <a href="https://stackoverflow.com/users/8379419/lucas?tab=profile">Stack Overflow</a> | <a href="https://linkedin.com/in/hangxulucas/">LinkedIn</a></div>
+  
+  </footer>
+  </article>
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-114110516-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
+
