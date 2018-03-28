@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://lucashangxu.pw/cn/2018/03/on-paid-podcast/</loc>
+    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/en/2018/03/how-to-get-the-most-of-freecodecamp/</loc>
     <lastmod>2018-03-13T00:00:00+00:00</lastmod>
   </url>
@@ -111,7 +116,7 @@
   
   <url>
     <loc>https://lucashangxu.pw/tags/chinese/</loc>
-    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -201,6 +206,18 @@
   <url>
     <loc>https://lucashangxu.pw/tags/network/</loc>
     <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/categories/opinions/</loc>
+    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/tags/paid-podcast/</loc>
+    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
