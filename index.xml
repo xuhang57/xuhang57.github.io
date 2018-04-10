@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Webpack</title>
+      <link>https://lucashangxu.pw/en/2018/04/webpack/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/en/2018/04/webpack/</guid>
+      <description>Introduction At its core, Webpack is a static module bundler for modern JavaScript applications. When Webpack process your application, it recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into one or more bundles.
+Core concepts:
+ Entry Output Loaders Plugins  Entry An entry point indicates which module Webpack should use to begin building out its internal dependency graph. After entering the entry point, webpack will figure out which other modules and libraries that entry point depends on (directly and indirectly)</description>
+    </item>
+    
+    <item>
       <title>Flarum</title>
       <link>https://lucashangxu.pw/en/2018/03/what-is-flarum/</link>
       <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
