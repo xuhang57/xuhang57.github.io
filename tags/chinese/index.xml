@@ -6,10 +6,19 @@
     <description>Recent content in Chinese on Lucas Xu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucashangxu.pw/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>关于共享单车</title>
+      <link>https://lucashangxu.pw/cn/2018/06/shared-bikes/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/2018/06/shared-bikes/</guid>
+      <description>无可否认的是，共享单车解决了我们在面对短程交通时无合适交通工具的问题。以深圳为例，尤其是夏天，从地铁上下来，相比走两公里，骑车应该是一个更省</description>
+    </item>
     
     <item>
       <title>关于知识付费</title>

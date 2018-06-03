@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucashangxu.pw/cn/2018/06/shared-bikes/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/en/2018/04/webpack/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -115,6 +120,12 @@
   </url>
   
   <url>
+    <loc>https://lucashangxu.pw/categories/blog/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lucashangxu.pw/tags/bundler/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -122,12 +133,13 @@
   
   <url>
     <loc>https://lucashangxu.pw/categories/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucashangxu.pw/tags/chinese/</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,6 +212,12 @@
   <url>
     <loc>https://lucashangxu.pw/categories/general/</loc>
     <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucashangxu.pw/tags/ideas/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

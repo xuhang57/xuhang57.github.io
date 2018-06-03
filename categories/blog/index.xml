@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Lucas Xu</title>
+    <link>https://lucashangxu.pw/categories/blog/</link>
+    <description>Recent content in Blog on Lucas Xu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucashangxu.pw/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于共享单车</title>
+      <link>https://lucashangxu.pw/cn/2018/06/shared-bikes/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucashangxu.pw/cn/2018/06/shared-bikes/</guid>
+      <description>无可否认的是，共享单车解决了我们在面对短程交通时无合适交通工具的问题。以深圳为例，尤其是夏天，从地铁上下来，相比走两公里，骑车应该是一个更省</description>
+    </item>
+    
+  </channel>
+</rss>

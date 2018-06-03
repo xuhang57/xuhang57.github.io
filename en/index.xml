@@ -72,7 +72,7 @@ In computer term, we group binary into 8 numbers or bits. Technically, a bit is 
       <guid>https://lucashangxu.pw/en/2018/02/linked-list/</guid>
       <description>What is a Linked List? A linked list is a linear data structure where each element is a separate object. It is a collection of nodes.
 Each element (node) of a list is comprising of two items: the data and a reference to the next node (Singly linked list).
-A doubly linked list is a list that has two two references, one to the next node and another previous node.</description>
+A doubly linked list is a list that has two references, one to the next node and another previous node.</description>
     </item>
     
     <item>
