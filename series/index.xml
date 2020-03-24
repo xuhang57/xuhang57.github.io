@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Lucas H. Xu</title>
-    <link>https://hangxu.dev/tags/</link>
-    <description>Recent content in Tags on Lucas H. Xu</description>
+    <title>Series on Lucas H. Xu</title>
+    <link>https://hangxu.dev/series/</link>
+    <description>Recent content in Series on Lucas H. Xu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hangxu.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hangxu.dev/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>blog</title>
-      <link>https://hangxu.dev/tags/blog/</link>
+      <title>Blog</title>
+      <link>https://hangxu.dev/series/blog/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://hangxu.dev/tags/blog/</guid>
+      <guid>https://hangxu.dev/series/blog/</guid>
       <description></description>
     </item>
     

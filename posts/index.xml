@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on Lucas H. Xu</title>
-    <link>https://hangxu.dev/tags/blog/</link>
-    <description>Recent content in blog on Lucas H. Xu</description>
+    <title>Posts on Lucas H. Xu</title>
+    <link>https://hangxu.dev/posts/</link>
+    <description>Recent content in Posts on Lucas H. Xu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://hangxu.dev/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hangxu.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

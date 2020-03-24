@@ -1,301 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucashangxu.pw/cn/2018/06/shared-bikes/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/series/blog/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/04/webpack/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/tags/blog/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/03/what-is-flarum/</loc>
-    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/cn/2018/03/on-paid-podcast/</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/posts/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/03/how-to-get-the-most-of-freecodecamp/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/series/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/cn/2018/03/financial-concepts/</loc>
-    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/tags/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/03/tcp-ip-network-model/</loc>
-    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/posts/why-writing-a-blog/</loc>
+    <lastmod>2020-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/03/digital-logic/</loc>
-    <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/about/</loc>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/02/linked-list/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/categories/</loc>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/cn/2018/02/linked-list/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <loc>https://hangxu.dev/projects/</loc>
   </url>
   
   <url>
-    <loc>https://lucashangxu.pw/en/2018/02/code-coverage-in-python/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/cn/2018/02/why-writing-a-blog/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/en/2018/02/why-write-a-blog/</loc>
-    <lastmod>2018-02-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/en/other-blogs/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/cn/other-blogs/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/en/about/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/en/cv/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/cn/about/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/cn/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/cn/cv/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/binary/</loc>
-    <lastmod>2018-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/blog/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/blog/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/bundler/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/chinese/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/code-coverage/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/codecamp/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/computer-network/</loc>
-    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/computer-system/</loc>
-    <lastmod>2018-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/concepts/</loc>
-    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/data-structure/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/digital/</loc>
-    <lastmod>2018-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/discussion-platform/</loc>
-    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/english/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/finance/</loc>
-    <lastmod>2018-03-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/frontend-tools/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/general/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/ideas/</loc>
-    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/layers/</loc>
-    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/linked-list/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/en/</loc>
-    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/network/</loc>
-    <lastmod>2018-03-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/opinions/</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/paid-podcast/</loc>
-    <lastmod>2018-03-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/php/</loc>
-    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/programming/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/python/</loc>
-    <lastmod>2018-02-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/self-learning/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/categories/software-application/</loc>
-    <lastmod>2018-03-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/</loc>
-    <lastmod>2018-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucashangxu.pw/tags/web/</loc>
-    <lastmod>2018-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://hangxu.dev/resume/</loc>
   </url>
   
 </urlset>

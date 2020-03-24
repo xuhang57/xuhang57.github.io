@@ -1,114 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Lucas Xu</title>
-    <link>https://lucashangxu.pw/categories/</link>
-    <description>Recent content in Categories on Lucas Xu</description>
+    <title>Categories on Lucas H. Xu</title>
+    <link>https://hangxu.dev/categories/</link>
+    <description>Recent content in Categories on Lucas H. Xu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
     
-	<atom:link href="https://lucashangxu.pw/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hangxu.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Blog</title>
-      <link>https://lucashangxu.pw/categories/blog/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer network</title>
-      <link>https://lucashangxu.pw/categories/computer-network/</link>
-      <pubDate>Fri, 09 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/computer-network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer system</title>
-      <link>https://lucashangxu.pw/categories/computer-system/</link>
-      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/computer-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data-structure</title>
-      <link>https://lucashangxu.pw/categories/data-structure/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/data-structure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finance</title>
-      <link>https://lucashangxu.pw/categories/finance/</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frontend tools</title>
-      <link>https://lucashangxu.pw/categories/frontend-tools/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/frontend-tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>https://lucashangxu.pw/categories/general/</link>
-      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opinions</title>
-      <link>https://lucashangxu.pw/categories/opinions/</link>
-      <pubDate>Mon, 26 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/opinions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://lucashangxu.pw/categories/programming/</link>
-      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-learning</title>
-      <link>https://lucashangxu.pw/categories/self-learning/</link>
-      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/self-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software application</title>
-      <link>https://lucashangxu.pw/categories/software-application/</link>
-      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucashangxu.pw/categories/software-application/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
