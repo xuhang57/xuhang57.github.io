@@ -28,8 +28,7 @@
       <guid>https://hangxu.dev/about/</guid>
       <description>Lucas graduated from Boston University with a Master of Science degree in Computer Science specialization in Cybersecurity Jan. 2020.
 After graduation, he joined Facebook as a Production Engineer.
-He currently lives in Menlo Park, CA. Feel free to connect with him on Facebook, Instagram or LinkedIn!
-Thanks for reading!</description>
+He currently lives in Menlo Park, CA. Feel free to connect with him on LinkedIn!</description>
     </item>
     
     <item>
@@ -38,7 +37,7 @@ Thanks for reading!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hangxu.dev/projects/</guid>
-      <description>Open-source Projects  My Awesome List My Wiki  </description>
+      <description>Open-source Projects  My Awesome List My Wiki Learn C Learn Java Learn CPP Learn Rust Learn Golang Learn Network Learn Algorithms  </description>
     </item>
     
     <item>
@@ -47,8 +46,8 @@ Thanks for reading!</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hangxu.dev/resume/</guid>
-      <description>To see the full version, please check my github reusme page
-Experience  Production Engineer at Facebook, Inc (Mar. 2020 - Present)  TBD   Software Engineer Intern at RedHat, Inc (May 2019 - Dec. 2019)  Performance Testing on OpenStack Octavia and Nova Prometheusis, Grafana, Graphite, Collectd, Ansible    Education  Boston University, Sept. 2018 - Jan. 2020  Master of Science    </description>
+      <description>To see the full version, please check my Github Resume Repo.
+Experience  Production Engineer at Facebook, Inc (Mar. 2020 - Present)  TBD   Software Engineer Intern at RedHat, Inc (May 2019 - Dec. 2019)  Performance Testing on OpenStack Octavia and Nova Prometheus, Grafana, Graphite, Collectd, Ansible    Education  Boston University, Sept. 2018 - Jan. 2020  Master of Science, Computer Science specialization in Cybersecurity   Boston University, Sept, 2012 - May 2016  Bachelor of Arts, Computer Science Bachelor of Arts, Statistics    </description>
     </item>
     
   </channel>
